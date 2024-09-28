@@ -104,7 +104,7 @@ for ax in g.axes.ravel():
     for c in ax.containers:
         ax.bar_label(c, label_type='edge', fmt = '%d')
 
-plt.title("Count of Bikes Rented According to Workingday or Not in 2011 & 2012")
+plt.title("Count of Bikes Rented According to Workingday or Not in 2011 & 2012\n")
 plt.xlabel("Kind of Days")
 plt.ylabel("Count of bikes rented")
 plt.ticklabel_format(style='plain', axis='y')
