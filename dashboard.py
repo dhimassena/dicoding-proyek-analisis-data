@@ -75,6 +75,17 @@ for ax in g.axes.ravel():
 plt.title("Count of Bikes Rented According to Seasons in 2011 & 2012")
 plt.xlabel("Seasons")
 plt.ylabel("Count of bikes rented")
+st.pyplot(plt.gcf())
+
+st.caption(
+"""
+**Insight:**
+- Dari grafik di atas, berdasarkan musim pada tahun 2011 dan 2012, penyewaan paling banyak terjadi pada musim Fall, dan penyewaan paling sedikit adalah pada musim Spring
+- Spring 2011 memiliki jumlah penyewaan sepeda sebanyak 150000 dan meningkat hampir 2,8 kali lipat pada Fall 2011 menjadi 419650
+- Namun perbadingan Spring 2012 dan Fall 2012 hanya memiliki kenaikan hampir 2 kali lipat, dimana jumlah penyewaan sepeda naik dari 321348 menjadi 641479
+- Secara umum terdapat peningkatan jumlah penyewaan sepeda pada tahun 2012 dibandingkan tahun 2011
+"""
+)
 
 # 2-----------------------------------------------------------------------------
 
@@ -97,6 +108,16 @@ plt.title("Count of Bikes Rented According to Workingday or Not in 2011 & 2012")
 plt.xlabel("Kind of Days")
 plt.ylabel("Count of bikes rented")
 plt.ticklabel_format(style='plain', axis='y')
+st.pyplot(plt.gcf())
+
+st.caption(
+"""
+**Insight:**
+- Grafik di atas menunjukkan perbedaan jumlah penyewaan sepeda yang cukup signifikan pada saat bukan hari kerja (saat libur / Holiday, hari Sabtu, dan Minggu) dibandingkan dengan hari kerja, yakni terdapat kenaikan 2 kali lipat lebih penyewaan sepeda pada hari kerja
+- Jumlah penyewaan sepeda tahun 2011 pada bukan hari kerja adalah 386839, dan naik menjadi 856264 pada hari kerja
+- Sedangkan tahun 2012 penyewaan sepeda berjumlah 613430 pada bukan hari kerja, dan meningkat menjadi 1436146 pada hari kerja
+"""
+)
 
 # 3-----------------------------------------------------------------------------
 
@@ -134,6 +155,16 @@ plt.title("Count of Bikes Rented on Weathersit in 2011 & 2012")
 plt.xlabel("Weathersits")
 plt.ylabel("Count of bikes rented")
 plt.ticklabel_format(style='plain', axis='y')
+st.pyplot(plt.gcf())
+
+st.caption(
+"""
+**Insight**
+- Grafik di atas memberikan informasi kepada kita bahwa cuaca sangat berpengaruh kepada jumlah penyewaan sepeda, dimana saat cuaca sedang baik (Clear), penyewaan sepeda menunjukkan jumlah terbanyak, baik tahun 2011 maupun 2012
+- Kemudian jumlah penyewaan tersebut menurun seiring dengan perubahan cuaca yang memburuk, hingga pada akhirnya saat terjadi cuaca ekstrem (Heavy Rain/Snow/Thunderstorm) tidak ada sama sekali orang yang menyewa sepeda untuk beraktivitas
+- Menariknya dari grafik di atas adalah saat cuaca sedang turun hujan/salju ringan, pada tahun 2011 menunjukkan jumlah yang lebih banyak daripada 2012 dengan selisih sekitar 2 kali lipat. Padahal seperti yang terdapat pada dataset ini, secara umum jumlah penyewaan sepeda tahun 2012 lebih banyak daripada tahun 2011
+"""
+)
 
 # 4-----------------------------------------------------------------------------
 
@@ -154,3 +185,14 @@ for ax in g.axes.ravel():
 plt.title("Hourly Count of Bikes Rented in 2011 & 2012")
 plt.xlabel("Hours")
 plt.ylabel("Count of bikes rented")
+st.pyplot(plt.gcf())
+
+st.caption(
+"""
+**Insight**
+- Grafik di atas memberikan informasi bahwa rentang pukul 0-5 adalah waktu dimana penyewaan sepeda paling sedikit terjadi pada tahun 2011 dan 2012. Hal ini menunjukkan bahwa rentang waktu tersebut mayoritas orang-orang sedang tidak melakukan aktivitas, atau bisa kita katakan waktu tersebut adalah normalnya waktu dimana orang-orang sedang beristirahat di rumah mereka masing-masing
+- Kemudian jumlah penyewaan sepeda di pagi hari meningkat pada pukul 6, dan naik signifikan pada pukul 7 dan 8. Hal tersebut bisa disimpulkan bahwa pada pukul 7 dan 8 pagi adalah waktu orang-orang mulai melakukan aktivitas di luar rumah seperti berangkat kerja, sekolah, kuliah, dan sebagainya dengan menyewa sepeda
+- Lalu pada sore hari, pukul 17 dan 18 adalah waktu dimana penyewaan sepeda paling banyak dalam sehari. Data ini mengisyaratkan bahwa pada waktu tersebut orang-orang sudah mulai pulang bekerja, sekolah, kuliah, dan aktivitas lainnya
+- Dan akhirnya jumlah penyewaan sepeda harian semakin menurun seiring semakin larutnya hari
+"""
+)
