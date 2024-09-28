@@ -76,10 +76,6 @@ plt.title("Count of Bikes Rented According to Seasons in 2011 & 2012")
 plt.xlabel("Seasons")
 plt.ylabel("Count of bikes rented")
 
-""
-""
-""
-
 # 2-----------------------------------------------------------------------------
 
 st.subheader("Apakah jumlah penyewaan sepeda berbeda secara signifikan pada bukan hari kerja dibandingkan dengan hari kerja?", divider="orange")
