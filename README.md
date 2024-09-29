@@ -14,3 +14,9 @@
    ```
    $ streamlit run streamlit_app.py
    ```
+
+3. Download Dataset
+
+   ```
+   https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset
+   ```
