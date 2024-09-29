@@ -27,7 +27,7 @@ st.set_page_config(
 
 # Set the title that appears at the top of the page.
 """
-# :sparkles: Proyek Analsis Data Menggunakan Bike Sharing Dataset
+# :sparkles: Proyek Dashboard Analisis Data Menggunakan Bike Sharing Dataset
 
 **Dicoding IDCamp 2024**
 
