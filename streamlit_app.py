@@ -163,7 +163,7 @@ def panggil_pertanyaan_3():
         **Insight**
         - Grafik di atas memberikan informasi kepada kita bahwa cuaca sangat berpengaruh kepada jumlah penyewaan sepeda, dimana saat cuaca sedang baik (Clear), penyewaan sepeda menunjukkan jumlah terbanyak, baik tahun 2011 maupun 2012
         - Kemudian jumlah penyewaan tersebut menurun seiring dengan perubahan cuaca yang memburuk, hingga pada akhirnya saat terjadi cuaca ekstrem (Heavy Rain/Snow/Thunderstorm) tidak ada sama sekali orang yang menyewa sepeda untuk beraktivitas
-        - Menariknya dari grafik di atas adalah saat cuaca sedang turun hujan/salju ringan, pada tahun 2011 menunjukkan jumlah yang lebih banyak daripada 2012 dengan selisih sekitar 2 kali lipat. Padahal seperti yang terdapat pada dataset ini, secara umum jumlah penyewaan sepeda tahun 2012 lebih banyak daripada tahun 2011
+        - Menariknya dari grafik di atas adalah saat cuaca sedang turun hujan/salju ringan, pada tahun 2011 menunjukkan jumlah yang lebih banyak daripada tahun 2012 dengan selisih sekitar 2 kali lipat. Padahal seperti yang terdapat pada dataset ini, secara umum jumlah penyewaan sepeda tahun 2012 lebih banyak daripada tahun 2011
         
         **Conclusion pertanyaan 3 :**
         Keadaan cuaca yang baik juga sangat berpengaruh kepada jumlah penyewaan sepeda, dimana semakin baik cuacanya juga semakin banyak jumlah sepeda yang disewakan. Begitu juga saat cuaca buruk, jumlah penyewaan sepeda menjadi semakin sedikit dan turun drastis saat cuaca Light Rain/Snow hingga tidak ada orang yang menyewa sepeda saat cuaca ekstrem. Keadaan ini tentu saja bisa terjadi saat orang-orang mempertimbangkan keselamatan berdasarkan keadaan cuaca pada hari tersebut
